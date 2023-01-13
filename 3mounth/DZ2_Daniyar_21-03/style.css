@@ -1,0 +1,13 @@
+.bigBlock{
+    width: 500px;
+    height: 500px;
+    background-color: #888888;
+    position: relative;
+}
+.littleBlock{
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    position: absolute;
+    left: 450px;
+}
