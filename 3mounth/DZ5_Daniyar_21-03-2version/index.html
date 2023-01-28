@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .wrapper > div {
+            display: flex;
+            flex-direction: column;
+        }
+        .usd {
+            margin-top: 50px;
+        }
+        input {
+            padding: 10px 20px;
+        }
+        label {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="convert_block_item">
+    <input type="number" id="val" placeholder="введите сумму..."/>
+    <select id="cur1">
+        <option>USD</option>
+        <option>EUR</option>
+        <option>SOM</option>
+    </select>
+</div>
+<div class="convert_block_item">
+    <div class="convert_result">= 00,000</div>
+    <select id="cur2">
+        <option>USD</option>
+        <option>EUR</option>
+        <option>SOM</option>
+    </select>
+</div>
+
+</body>
+<script src="java.js"></script>
+</html>

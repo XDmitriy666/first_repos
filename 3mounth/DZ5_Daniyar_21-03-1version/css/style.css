@@ -1,0 +1,51 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://s1.1zoom.ru/b5050/259/Bitcoin_Coins_586429_1920x1080.jpg);
+	
+}
+
+.wrapper > div {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+   position: relative;
+}
+.text {
+	font-size: 24px;
+	color: rgb(28, 39, 39);
+	text-align: center;
+}
+.block_1{
+   width: 40px;
+   height: 30px;
+   position: absolute;
+   left: 135px;
+   top: 25px;
+}
+.block_2{
+   width: 45px;
+   height: 25px;
+   margin-left: 125px;
+   position: absolute;
+   top: 25px;
+   left: 5px;
+}
+h3 {
+	font-size: 24px;
+	color: rgb(27, 29, 29);
+	text-align: center;
+}
+input {
+	border-radius: 8px;
+}
+
+input {
+	padding: 10px 20px;
+}
+
+
+label {
+	font-size: 20px;
+}
