@@ -1,0 +1,22 @@
+body {
+    background-image: url(images/linear-gradient.jpg);
+    background-size: 100%;
+}
+.card {
+    border-radius: 2%;
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 3px 8px 0 rgba(73, 69, 69, 0.2);
+    transition: 0.3s;
+    align-items: center;
+
+}
+.card:hover {
+    box-shadow: 0 10px 55px 0 rgb(0, 0, 0);
+}
+.container {
+    padding: 2px 16px;
+}
