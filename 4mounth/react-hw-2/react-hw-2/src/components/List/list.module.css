@@ -1,0 +1,20 @@
+  .list__list {
+    display: flex;
+    align-items: center;
+  }
+  .list__item ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .list__item li {
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 14px;
+    /* list-style-type: none; */
+    margin-bottom: 20px;
+  }

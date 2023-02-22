@@ -1,0 +1,61 @@
+.addBtn {
+	text-decoration: none;
+	color: #6b5770;
+	background-image: linear-gradient(21deg, #10abff, #1beabd);
+	display: inline-block;
+	padding: 14px 30px;
+	border: 1px solid;
+	position: relative;
+	z-index: 0;
+	border-radius: 9999em;
+	box-sizing: border-box;
+	margin: 20px 0px;
+	outline: none;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+}
+.addBtn:before {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	background: linear-gradient(21deg, #10abff, #1beabd);
+	z-index: -2;
+	transition: .4s;
+	border-radius: 9999em;
+}
+.addBtn:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(21deg, #10abff, #1beabd);
+	z-index: -1;
+	transition: .4s;
+	border-radius: 9999em;
+}
+.addBtn:hover {
+	color: #fff;
+	transition: .3s;
+}
+.addBtn:hover:after {
+	background: linear-gradient(21deg, #10abff, #1beabd);
+}
+.addBtn:active:after {
+	background: linear-gradient(21deg, #10abff, #1beabd);
+}
+.addBtn:focus-visible {
+	box-shadow: 0 0 0 3px #fd7f34;
+}
+.addBtn:disabled {
+	pointer-events: none;
+}
+.addBtn:disabled:before {
+	filter: grayscale(100%);
+}
