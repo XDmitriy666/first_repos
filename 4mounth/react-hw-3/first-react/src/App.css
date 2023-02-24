@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {  
+  color: rgba(255, 0, 0, 0.61);
+}
+
+.button {
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
+}
+
