@@ -1,0 +1,37 @@
+
+
+.wrapperCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+.todoCard {
+    width: 600px;
+    height: 100px;
+    background-color: #ffff;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 20px rgba(185, 186, 185, 0.75);
+    margin-right: 10px;
+    position: relative;
+}
+.actionButtons {
+    position: absolute;
+    right: 15px;
+}
+
+.editIcon {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    
+}
