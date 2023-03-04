@@ -1,0 +1,17 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {  
+  color: red;
+}
+
+.button {
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
+}
+

@@ -1,0 +1,21 @@
+
+
+.actionButton {
+    width: 70px;
+    height: 30px;
+    border: none;
+    background: green;
+    margin-left: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.delete {
+    background-color: red;
+}
+
+
+.edit {
+   background-color: gray; 
+}
