@@ -1,0 +1,6 @@
+.app.light {
+    --background-color: white;
+    --text-color: black;
+    --card-background: black;
+    --card-text: white;
+}
