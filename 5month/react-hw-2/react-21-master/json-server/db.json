@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "New post",
+      "author": "new one"
+    },
+    {
+      "id": 2,
+      "title": "Example",
+      "author": "typicode"
+    },
+    {
+      "username": "admin",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "username": "admin",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
